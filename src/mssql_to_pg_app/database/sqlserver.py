@@ -1,5 +1,5 @@
 import pyodbc
-from etl_app.config import required_env
+from mssql_to_pg_app.config import required_env
 
 def connection_string() -> str:
     return (

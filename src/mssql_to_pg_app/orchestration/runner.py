@@ -1,6 +1,6 @@
 import asyncio
 import structlog
-from etl_app.processors import PROCESSORS
+from mssql_to_pg_app.processors import PROCESSORS
 log = structlog.get_logger()
 
 class AsyncRunner:

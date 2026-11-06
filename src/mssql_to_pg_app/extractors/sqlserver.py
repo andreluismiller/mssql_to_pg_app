@@ -1,8 +1,8 @@
 import asyncio
 from dataclasses import dataclass
 from typing import Any
-from etl_app.database.sqlserver import connect
-from etl_app.sql import source_select
+from mssql_to_pg_app.database.sqlserver import connect
+from mssql_to_pg_app.sql import source_select
 
 @dataclass(slots=True)
 class Batch:

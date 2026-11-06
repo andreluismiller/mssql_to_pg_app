@@ -1,7 +1,7 @@
 import ssl
 import asyncpg
-from etl_app.config import required_env
-from etl_app.models import AppSettings
+from mssql_to_pg_app.config import required_env
+from mssql_to_pg_app.models import AppSettings
 
 async def create_pool(settings: AppSettings) -> asyncpg.Pool:
     sslmode = required_env("POSTGRES_SSLMODE").lower()

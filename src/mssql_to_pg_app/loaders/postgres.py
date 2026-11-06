@@ -1,6 +1,6 @@
 from uuid import uuid4
 import asyncpg
-from etl_app.sql import pg_quote
+from mssql_to_pg_app.sql import pg_quote
 
 class AsyncPostgresLoader:
     def __init__(self, pool: asyncpg.Pool, staging_schema: str):
