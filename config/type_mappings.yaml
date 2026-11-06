@@ -1,0 +1,35 @@
+mappings:
+  bigint: bigint
+  binary: bytea
+  bit: boolean
+  char: char
+  date: date
+  datetime: timestamp without time zone
+  datetime2: timestamp without time zone
+  datetimeoffset: timestamp with time zone
+  decimal: numeric
+  float: double precision
+  geography: text
+  geometry: text
+  hierarchyid: text
+  image: bytea
+  int: integer
+  money: numeric(19,4)
+  nchar: char
+  ntext: text
+  numeric: numeric
+  nvarchar: varchar
+  real: real
+  rowversion: bytea
+  smalldatetime: timestamp without time zone
+  smallint: smallint
+  smallmoney: numeric(10,4)
+  sql_variant: text
+  text: text
+  time: time without time zone
+  timestamp: bytea
+  tinyint: smallint
+  uniqueidentifier: uuid
+  varbinary: bytea
+  varchar: varchar
+  xml: xml

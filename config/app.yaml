@@ -1,0 +1,14 @@
+app:
+  fetch_size: 10000
+  max_concurrent_objects: 4
+  queue_max_batches: 3
+  postgres_pool_min_size: 2
+  postgres_pool_max_size: 8
+  postgres_command_timeout_seconds: 1800
+  state_schema: etl_control
+  state_table: object_watermarks
+  fail_fast: false
+source:
+  command_timeout_seconds: 1800
+target:
+  staging_schema: etl_stage
